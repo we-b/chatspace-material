@@ -11,6 +11,11 @@
       float: left;
       width: 50%;
     }
+    &:after {
+      clear: both;
+      content: "";
+      display: block;
+    }
   }
 
   .account-page__header {
@@ -57,7 +62,7 @@
       }
     }
 
-    .field-input { 
+    .field-input {
       input {
         width: 100%;
         padding: 10px;
@@ -133,9 +138,4 @@
     padding: 0;
     font-size: 13px;
   }
-  age__inner.clearfix:after {
-    clear: both;
-    content: "";
-    display: block;
-}
 }
