@@ -133,4 +133,9 @@
     padding: 0;
     font-size: 13px;
   }
+  age__inner.clearfix:after {
+    clear: both;
+    content: "";
+    display: block;
+}
 }
